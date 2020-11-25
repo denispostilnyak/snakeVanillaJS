@@ -1,0 +1,39 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    background-color: goldenrod;
+}
+
+.board {
+    background-color: grey;
+    height: 80vh;
+    width: 40vw;
+    display: grid;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(24, 1fr);
+}
+
+.snake {
+    background-color: red;
+    border: solid black;
+}
+
+.apple {
+    background-color: green;
+    border: solid black;
+}
+
+.score {
+    margin-left: 5vw;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: red;
+    height: 10vh;
+    width: 10vw;
+}
